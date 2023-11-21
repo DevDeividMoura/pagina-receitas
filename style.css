@@ -6,10 +6,37 @@ Cor da top bar e da footer: #ff6b28
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-html, 
+html,
 body {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: "lato", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ff6b28
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .top-bar {
@@ -24,3 +51,45 @@ body {
     background-position: center;
     height: 400px;
 }
+
+.content {
+    margin: auto;
+    max-width: 990px;
+    padding: 0 40px;
+    margin-top: 100px;
+}
+
+.card {
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+
+}
+
+.ingredients {
+    cursor: url("./images/cursor_ingredientes.png"), default;
+}
+
+.preparation {
+    cursor: url("./images/cursor_preparo.png"), default;
+}
+
+.btn-purchase {
+    background-color: #ff6b28;
+    padding: 16px;
+    border-radius: 20px;
+    color:white
+}
+
+li{
+    margin-bottom: 14px;
+}
+
+.ingredients-list {
+    margin-bottom: 50px;
+}
+
