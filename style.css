@@ -6,8 +6,7 @@ Cor da top bar e da footer: #ff6b28
 
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
 
-html,
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -63,11 +62,11 @@ a {
     padding: 70px 100px;
     margin-top: 50px;
     border-radius: 20px;
+    transition: all 0.5s ease;
 }
 
 .card:hover {
     box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
-
 }
 
 .ingredients {
@@ -118,3 +117,4 @@ footer {
 .text-white {
     color: white;
 }
+
