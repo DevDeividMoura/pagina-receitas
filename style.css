@@ -4,7 +4,7 @@ Cor das fontes: #ff6b28
 Cor da top bar e da footer: #ff6b28
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
 
 html,
 body {
@@ -78,11 +78,14 @@ a {
     cursor: url("./images/cursor_preparo.png"), default;
 }
 
+.instructions {
+    cursor: url("./images/cursor_intrucoes.png"), default;
+}
+
 .btn-purchase {
     background-color: #ff6b28;
     padding: 16px;
     border-radius: 20px;
-    color:white
 }
 
 li{
@@ -93,3 +96,25 @@ li{
     margin-bottom: 50px;
 }
 
+p, li {
+    line-height: 28px;
+}
+
+footer {
+    background-color: #ff6b28;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.foo-text {
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-white {
+    color: white;
+}
